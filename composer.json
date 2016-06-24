@@ -1,0 +1,14 @@
+{
+  "name": "drupal/plyr",
+  "type": "drupal-module",
+  "description": "Plyr 是一个简单的 HTML5 媒体播放器，包含自定义的控制选项和 WebVTT 字幕。它是只支持现代浏览器，轻量，方便和可定制的媒体播放器。还有的标题和屏幕阅读器的全面支持。",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/plyr",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/plyr",
+    "source": "http://cgit.drupalcode.org/plyr"
+  },
+  "require": { }
+}

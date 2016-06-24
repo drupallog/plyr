@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains plyr.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function plyr_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the plyr module.
+    case 'help.page.plyr':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Plyr 是一个简单的 HTML5 媒体播放器，包含自定义的控制选项和 WebVTT 字幕。它是只支持现代浏览器，轻量，方便和可定制的媒体播放器。还有的标题和屏幕阅读器的全面支持。') . '</p>';
+      return $output;
+
+    default:
+  }
+}
